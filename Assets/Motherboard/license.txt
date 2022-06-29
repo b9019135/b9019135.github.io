@@ -1,0 +1,11 @@
+Model Information:
+* title:	Motherboard
+* source:	https://sketchfab.com/3d-models/motherboard-d5b6c8e54fbd432f856af6087df5f487
+* author:	banderovec (https://sketchfab.com/matov.potya2013)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Motherboard" (https://sketchfab.com/3d-models/motherboard-d5b6c8e54fbd432f856af6087df5f487) by banderovec (https://sketchfab.com/matov.potya2013) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

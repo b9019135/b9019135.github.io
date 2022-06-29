@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConnorJenkins</title>
+
+    <script src="https://kit.fontawesome.com/35a292882e.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
+
+    <canvas id="background"></canvas>
+
+    <div class="sidebar">
+      <div class="sidebarheader">
+        <div class="sidebarlogo">
+          <i class="fa-solid fa-wrench"></i>
+          <div class="sitename">Component Viewer</div>
+        </div>
+        <i class="fa-solid fa-ellipsis" id="menubtn"></i>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <a href="index.html">
+            <i class="fa-solid fa-hard-drive"></i>
+            <span class="name">Solid State Drive</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-circle-dot"></i>
+            <span class="name">Motherboard</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class = "popup" id="popupID"><div class="text" id="popudIDData"><p>Click an object to find out more!</p><p1>Click and hold to move the box!</p1></div></div>
+    <script type="module" src="/main2.js"></script>
+
+    <script>
+      let btn = document.querySelector("#menubtn");
+      let sidebar = document.querySelector(".sidebar");
+
+      btn.onclick = function() {
+        sidebar.classList.toggle("active");
+      }
+      
+    </script>
+  </body>
+</html>
+

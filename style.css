@@ -1,0 +1,168 @@
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    top: 0;
+    left: 0;
+    background: black;
+    padding: 6px 14px;
+
+    transition: all 0.5s ease;
+}
+
+.sidebar.active{
+    width: 240px;
+}
+
+
+
+.sidebar .sidebarheader .sidebarlogo {
+
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+.sidebar.active .sidebarheader .sidebarlogo{
+    opacity: 1;
+}
+
+
+
+.sidebarheader i {
+
+    font-size: 28px;
+    margin-right: 28px;
+
+}
+
+.sitename
+{
+    text-decoration: underline;
+    font-size: large;
+}
+
+.sidebar #menubtn {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.sidebar.active #menubtn {
+    left: 90%;
+}
+
+
+
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    list-style: none;
+    margin: 0 -55px;
+    list-style: none;
+    line-height: 50px;
+}
+
+.sidebar ul li a {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4 ease;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+.sidebar ul li a:hover {
+    background: grey;
+}
+
+.sidebar ul li a i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+.popup {
+    position: absolute;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    height: 100px;
+    width: 250px;
+    border-radius: 3px;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: flex;
+    right: 5px;
+}
+
+h1 {
+    font-size: medium;
+    text-decoration: underline;
+}
+
+p,
+p1 {
+    margin-left: 25px;
+    font-style: oblique;
+    text-decoration: underline;
+
+}
+
+text {
+    font-style: italic;
+    font-size: small;
+}
+
+#popupIDData {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+
+    padding-left: 100px;
+}
